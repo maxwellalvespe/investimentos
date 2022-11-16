@@ -2,7 +2,7 @@ package max.investimentos.controller;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import max.investimentos.dtos.InvestimentoRequestDTO;
+import max.investimentos.dtos.investimento.InvestimentoRequestDTO;
 import max.investimentos.services.LivroCaixaServices;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

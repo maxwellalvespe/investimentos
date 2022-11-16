@@ -1,9 +1,9 @@
 package max.investimentos.services;
 
 import max.investimentos.domain.LivroCaixa;
-import max.investimentos.dtos.InvestimentoRequestDTO;
-import max.investimentos.dtos.TipoDeAcao;
-import max.investimentos.entity.LivroCaixaRepository;
+import max.investimentos.dtos.investimento.InvestimentoRequestDTO;
+import max.investimentos.enums.TipoDeAcao;
+import max.investimentos.repository.LivroCaixaRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.stream.Stream;

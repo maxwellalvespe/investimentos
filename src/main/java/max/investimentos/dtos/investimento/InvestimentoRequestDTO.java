@@ -1,8 +1,9 @@
-package max.investimentos.dtos;
+package max.investimentos.dtos.investimento;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import max.investimentos.enums.TipoDeAcao;
 
 import java.time.LocalDateTime;
 import java.time.ZoneId;

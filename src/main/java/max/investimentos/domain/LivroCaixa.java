@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import max.investimentos.dtos.TipoDeAcao;
+import max.investimentos.enums.TipoDeAcao;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;

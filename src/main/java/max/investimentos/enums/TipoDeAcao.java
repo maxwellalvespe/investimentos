@@ -1,4 +1,4 @@
-package max.investimentos.dtos;
+package max.investimentos.enums;
 
 import lombok.Getter;
 

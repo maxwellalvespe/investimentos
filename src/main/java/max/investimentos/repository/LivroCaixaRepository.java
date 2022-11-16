@@ -1,4 +1,4 @@
-package max.investimentos.entity;
+package max.investimentos.repository;
 
 import max.investimentos.domain.LivroCaixa;
 import org.springframework.data.jpa.repository.JpaRepository;
