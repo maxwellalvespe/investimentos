@@ -10,11 +10,8 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-public class Investimento {
+public class Investimento extends BaseID{
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private UUID id;
     private String acao;
     private Double precoDeCompra;
     private Double precoDeVenda;

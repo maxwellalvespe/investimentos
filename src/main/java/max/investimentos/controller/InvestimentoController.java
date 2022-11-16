@@ -3,17 +3,11 @@ package max.investimentos.controller;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import max.investimentos.domain.dtos.InvestimentoRequestDTO;
-import max.investimentos.domain.dtos.TipoDeAcao;
 import max.investimentos.domain.services.LivroCaixaServices;
-import max.investimentos.entity.InvestimentoRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.net.URI;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.UUID;
 
 @RestController
 @RequestMapping("/investimentos")
@@ -40,6 +34,6 @@ public class InvestimentoController {
     public ResponseEntity<?> realizarvenda(@PathVariable String idInvestidor,
                                            @RequestBody InvestimentoRequestDTO requestDTO) {
         var response = livroCaixaServices.vender(requestDTO, idInvestidor);
-        return ResponseEntity.created(URI.create("/venda/" + response.getRegistro())).body(response);
+        return ResponseEntity.created(URI.create("/venda/" + response.getId())).body(response);
     }
 }

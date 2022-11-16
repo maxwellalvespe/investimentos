@@ -15,11 +15,8 @@ import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-public class RegistroDeInvestimentos {
+public class RegistroDeInvestimentos extends BaseID {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private UUID id;
 
     private String idInvestidor;
 

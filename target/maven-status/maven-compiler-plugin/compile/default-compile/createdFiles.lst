@@ -1,0 +1,17 @@
+max/investimentos/domain/dtos/TipoDeAcao.class
+max/investimentos/domain/LivroCaixa.class
+max/investimentos/entity/LivroCaixaRepository.class
+max/investimentos/domain/Investimento$InvestimentoBuilder.class
+max/investimentos/domain/services/LivroCaixaServices.class
+max/investimentos/domain/RegistroDeInvestimentos.class
+max/investimentos/domain/dtos/InvestimentoRequestDTO.class
+max/investimentos/domain/LivroCaixa$LivroCaixaBuilder.class
+max/investimentos/domain/enums/TipoDeTaxa.class
+max/investimentos/domain/enums/TipoDeMercado.class
+max/investimentos/entity/RegistroDeInvestimentoRepository.class
+max/investimentos/domain/Investimento.class
+max/investimentos/InvestimentosApplication.class
+max/investimentos/controller/InvestimentoController.class
+max/investimentos/entity/InvestimentoRepository.class
+max/investimentos/domain/RegistroDeInvestimentos$RegistroDeInvestimentosBuilder.class
+max/investimentos/domain/Investidor.class

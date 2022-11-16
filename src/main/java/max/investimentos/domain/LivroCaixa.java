@@ -9,25 +9,21 @@ import max.investimentos.domain.dtos.TipoDeAcao;
 import javax.persistence.*;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
-import java.util.UUID;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
 @Entity
-public class LivroCaixa {
+public class LivroCaixa extends BaseID {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long registro;
 
     private String titulo;
 
     @Column(nullable = false)
     private int quantidade;
 
-    @Column(nullable = false,precision = 2)
+    @Column(nullable = false, precision = 2)
     private Double valor;
 
     @Enumerated(EnumType.STRING)
