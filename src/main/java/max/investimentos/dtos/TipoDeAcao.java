@@ -1,4 +1,4 @@
-package max.investimentos.domain.dtos;
+package max.investimentos.dtos;
 
 import lombok.Getter;
 

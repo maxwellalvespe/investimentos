@@ -1,4 +1,4 @@
-package max.investimentos.domain.enums;
+package max.investimentos.enums;
 
 public enum TipoDeMercado {
     A_VISTA,

@@ -1,12 +1,11 @@
-package max.investimentos.domain.services;
+package max.investimentos.services;
 
 import max.investimentos.domain.LivroCaixa;
-import max.investimentos.domain.dtos.InvestimentoRequestDTO;
-import max.investimentos.domain.dtos.TipoDeAcao;
+import max.investimentos.dtos.InvestimentoRequestDTO;
+import max.investimentos.dtos.TipoDeAcao;
 import max.investimentos.entity.LivroCaixaRepository;
 import org.springframework.stereotype.Service;
 
-import java.util.UUID;
 import java.util.stream.Stream;
 
 @Service
